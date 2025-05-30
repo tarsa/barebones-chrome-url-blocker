@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Blocker for Meta / Facebook",
+  "version": "1.0",
+  "description": "Blocks all requests to main Meta / Facebook URLs",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

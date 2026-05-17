@@ -25,7 +25,23 @@
         "meta.com",
         "meta.ai"
       ],
-      "excludedResourceTypes": []
+      "resourceTypes": [
+        "csp_report",
+        "font",
+        "image",
+        "main_frame",
+        "media",
+        "object",
+        "ping",
+        "script",
+        "stylesheet",
+        "sub_frame",
+        "webbundle",
+        "websocket",
+        "webtransport",
+        "xmlhttprequest",
+        "other"
+      ]
     }
   }
 ]

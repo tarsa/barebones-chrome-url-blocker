@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "requestDomains": [
+        "facebook.com",
+        "facebook.net",
+        "fb.com",
+        "fb.net",
+        "fb.me",
+        "fbcdn.net",
+        "fbcdn.com",
+        "fbsbx.com",
+        "messenger.com",
+        "m.me",
+        "whatsapp.com",
+        "whatsapp.net",
+        "wa.me",
+        "threads.net",
+        "threads.com",
+        "meta.com",
+        "meta.ai"
+      ],
+      "excludedResourceTypes": []
+    }
+  }
+]

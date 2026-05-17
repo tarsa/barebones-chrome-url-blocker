@@ -4,10 +4,15 @@
   "version": "1.0",
   "description": "Blocks all requests to main Meta / Facebook URLs",
   "permissions": [
-    "declarativeNetRequest",
-    "declarativeNetRequestFeedback"
+    "declarativeNetRequest"
   ],
-  "background": {
-    "service_worker": "background.js"
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "meta_facebook_rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
   }
 }
